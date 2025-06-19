@@ -5,6 +5,8 @@ on:
     paths:
       - 'pool/**/*.deb'
 
+  workflow_dispatch:
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -31,6 +33,7 @@ jobs:
           apt-ftparchive release -o APT::FTPArchive::Release::Suite=stable dists/stable > dists/stable/Release
 
           gpg --default-key "${{ secrets.GPG_EMAIL }}" -abs -o dists/stable/Release.gpg dists/stable/Release
+          gpg --default-key "${{ secrets.GPG_EMAIL }}" --clearsign -o dists/stable/InRelease dists/stable/Release
 
       - name: Commit and push
         run: |
