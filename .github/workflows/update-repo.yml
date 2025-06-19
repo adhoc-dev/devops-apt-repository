@@ -24,9 +24,9 @@ jobs:
       - name: Generate Packages and Release files
         run: |
           mkdir -p dists/stable/main/{binary-amd64,binary-i386,binary-all}
-          dpkg-scanpackages --arch all pool/ > dists/stable/main/binary-all/Packages
-          dpkg-scanpackages --arch amd64 pool/ > dists/stable/main/binary-amd64/Packages
-          dpkg-scanpackages --arch i386 pool/ > dists/stable/main/binary-i386/Packages
+          dpkg-scanpackages -m --arch all pool/ /dev/null > dists/stable/main/binary-all/Packages 2>/dev/null
+          dpkg-scanpackages -m --arch amd64 pool/ /dev/null > dists/stable/main/binary-amd64/Packages 2>/dev/null
+          dpkg-scanpackages -m --arch i386 pool/ /dev/null > dists/stable/main/binary-i386/Packages 2>/dev/null
           gzip -kf dists/stable/main/binary-*/Packages
 
           rm -f dists/stable/{InRelease,Release,Release.gpg}
