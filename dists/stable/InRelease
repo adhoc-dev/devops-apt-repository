@@ -1,3 +1,6 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
 Date: Thu, 19 Jun 2025 13:37:51 +0000
 Suite: stable
 MD5Sum:
@@ -32,3 +35,17 @@ SHA512:
  a58ce12343c8facfb66a5bbdda66fcafefca8daddeea8e7177e680fc670118d20b7de7bd3e3f7fac04a5a12284045d3e73f76b50a45b11afc5d0dbf51b58cb7d              373 main/binary-amd64/Packages.gz
  ba8158edefaac8e18743293fa72d45d8bb560b3ac091a3a974738297479e3d805f7f1f801e0ef294873f4bb0caa3eb134b42f8dbf19d3c14c0894737339f9e53              480 main/binary-i386/Packages
  86141c3184bedce88417e446c4d679f72e2a73c8740666717e1b33477beff4593e6a4188e066a1cad22aa834beaa77f77b01d9215abe1099be7c402d952f24a9              373 main/binary-i386/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iQHFBAEBCgAvFiEE9k1p8BsrCgJDMJZ4C/q5jmGrVOoFAmhUEq8RHGRldm9wc0Bh
+ZGhvYy5pbmMACgkQC/q5jmGrVOq8KQv/Qk8fE3ncLBljw9Jp8eGn0S2ewx1D/GBc
+eka4ivQ+Cy5pacFUaUk+TdgiNK512GlTdfA8AZNfXbQVK2QINMBwupQEcWa2Rbtd
+zQxFIGpNKirT5Q/npcLNH0afaGxe0rZAi1zNJlSswkRdkc+LdJP7EZzGybfgGOPy
+4JS21O8tGPcw+wB8zFrI5L5702bTn1MbTkdVPPTEz90Y0E3+c7+PjgUYruYxdG2+
+ICK8idSkDPtpxeGZv0+oozDcRXwiERLPycKqTcZJGkRnDE++Y4Yby2cmVJAt+tOj
+Xd31Q9M3jGlFnBIoPIRNiI64ueqmleWdSUfZy3elaDvEEyjcZ/lrT6zBXNpJfdQf
+VBWu5sp2eIrvggfcVioiHZ5xIlr/F3sdx2Bmv3LSBvqiFQerzRysz36ddC18uwYi
+kNavphZevifI26L6kF1Z+pb6LCT5zx5XV9xD9WZVRMWWWBhQOe8eHWSTDDRwgc6f
+rdJXW0qSgXxXXYKk941x1UBYoCfEJGts
+=UHwk
+-----END PGP SIGNATURE-----
