@@ -22,8 +22,8 @@ jobs:
 
       - name: Sync repo files to gh-pages
         run: |
-          rsync -av --delete --exclude='.git' pool/ gh-pages/pool/
-          rsync -av --delete --exclude='.git' dists/ gh-pages/dists/
+          rsync -avc --delete --exclude='.git' pool/ gh-pages/pool/
+          rsync -avc --delete --exclude='.git' dists/ gh-pages/dists/
 
       - name: Commit and push
         run: |
