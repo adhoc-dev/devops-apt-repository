@@ -40,3 +40,17 @@ Homepage: https://www.adhoc.inc
 Description: Automagic CLI for adhoc teamates.
  This release includes a set of scripts and tools to simplify the workflow.
 
+Package: adhoccli
+Version: 0.0.4
+Architecture: all
+Maintainer: Devops Team <devops@adhoc.inc>
+Installed-Size: 10
+Filename: pool/adhoccli_0.0.4_all.deb
+Size: 17630
+MD5sum: 2e1af294b87962d6bfa1a4eb59981c27
+SHA1: 9bd96e89c055fc024d0134ad1c8e60f0bdb91731
+SHA256: aaba96b811bb3089a1961e3cf78d5f1155a1d9e87b762a7eb97b0ff1df6e13d4
+Homepage: https://www.adhoc.inc
+Description: Automagic CLI for adhoc teamates.
+ This release includes a set of scripts and tools to simplify the workflow.
+
