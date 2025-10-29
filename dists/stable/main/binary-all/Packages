@@ -13,6 +13,21 @@ Description: Automagic CLI for adhoc teamates.
  This release includes a set of scripts and tools to simplify the workflow.
 
 Package: adhoccli
+Version: 0.0.10
+Architecture: all
+Maintainer: Devops Team <devops@adhoc.inc>
+Installed-Size: 3000
+Depends: bash, kubectl, google-cloud-cli, jq, google-cloud-cli-gke-gcloud-auth-plugin, sshuttle
+Filename: pool/adhoccli_0.0.10_all.deb
+Size: 736076
+MD5sum: 4df21a83b93fadc40500b68ce4f63f7b
+SHA1: f3e3ef7e569190f43ea3bade7080f2e49e4c50f4
+SHA256: 4c00b4c6d16ede212df2fa7df169371a7bfd7ec41eb42d3ee47c38beed284dfa
+Homepage: https://www.adhoc.inc
+Description: Automagic CLI for adhoc teamates.
+ This release includes a set of scripts and tools to simplify the workflow.
+
+Package: adhoccli
 Version: 0.0.2
 Architecture: all
 Maintainer: Devops Team <devops@adhoc.inc>
