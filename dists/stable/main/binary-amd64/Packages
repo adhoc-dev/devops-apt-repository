@@ -292,6 +292,21 @@ Homepage: https://www.adhoc.inc
 Description: Automagic CLI for adhoc teamates.
  This release includes a set of scripts and tools to simplify the workflow.
 
+Package: adhoccli
+Version: 0.1.2
+Architecture: all
+Maintainer: Devops Team <devops@adhoc.inc>
+Installed-Size: 3000
+Depends: bash, kubectl, google-cloud-cli, jq, google-cloud-cli-gke-gcloud-auth-plugin, yq
+Filename: pool/adhoccli_0.1.2_all.deb
+Size: 732988
+MD5sum: 714d2cc6efd2de24fffbb9546dd6e1c9
+SHA1: 1e9104071ac004ccea5167c3a53aeea85f2ddfcf
+SHA256: b6f55100f8440aa1994375be73e1908371b5a0cdfe49a594202923e8053547d3
+Homepage: https://www.adhoc.inc
+Description: Automagic CLI for adhoc teamates.
+ This release includes a set of scripts and tools to simplify the workflow.
+
 Package: streamsnap
 Version: 1.0.10
 Architecture: amd64
