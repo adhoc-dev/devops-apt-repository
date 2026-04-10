@@ -293,6 +293,26 @@ Description: Automagic CLI for adhoc teamates.
  This release includes a set of scripts and tools to simplify the workflow.
 
 Package: streamsnap
+Version: 1.0.10
+Architecture: amd64
+Maintainer: StreamSnap Team <contact@streamsnap.app>
+Installed-Size: 258683
+Depends: libgtk-3-0, libnotify4, libnss3, libxss1, libxtst6, xdg-utils, libatspi2.0-0, libuuid1, libsecret-1-0
+Recommends: libappindicator3-1
+Filename: pool/streamsnap_1.0.10_amd64.deb
+Size: 84199776
+MD5sum: f3d71a46ea716dd7b548c9c05f2d61fe
+SHA1: 2e81fb77df74b8d1ede00258644732f79bdda294
+SHA256: a71daf45a0231db5b414d948a6e144ace1686fe05e8f1579caa130726a83cece
+Section: default
+Priority: optional
+Homepage: https://github.com/lef-adhoc/streamsnap
+Description: Professional screen recording application
+  StreamSnap is a professional screen recording application built with Electron, featuring Google Drive integration and advanced recording capabilities.
+License: MIT
+Vendor: StreamSnap Team
+
+Package: streamsnap
 Version: 1.0.9
 Architecture: amd64
 Maintainer: StreamSnap Team <contact@streamsnap.app>
