@@ -423,6 +423,26 @@ License: MIT
 Vendor: StreamSnap Team
 
 Package: streamsnap
+Version: 1.0.16
+Architecture: amd64
+Maintainer: StreamSnap Team <contact@streamsnap.app>
+Installed-Size: 258562
+Depends: libgtk-3-0, libnotify4, libnss3, libxss1, libxtst6, xdg-utils, libatspi2.0-0, libuuid1, libsecret-1-0
+Recommends: libappindicator3-1
+Filename: pool/streamsnap_1.0.16_amd64.deb
+Size: 84058028
+MD5sum: e712f40369d60361fdcfaf718e54388e
+SHA1: c2c9e18d75d6fd161369a624c2034207eac68c27
+SHA256: 4deb54b769b37551a254bc13168fc4f3415ad214a403ea6be8e481b451339bc9
+Section: default
+Priority: optional
+Homepage: https://github.com/lef-adhoc/streamsnap
+Description: Professional screen recording application
+  StreamSnap is a professional screen recording application built with Electron, featuring Google Drive integration and advanced recording capabilities.
+License: MIT
+Vendor: StreamSnap Team
+
+Package: streamsnap
 Version: 1.0.9
 Architecture: amd64
 Maintainer: StreamSnap Team <contact@streamsnap.app>
