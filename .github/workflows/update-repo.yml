@@ -21,6 +21,9 @@ jobs:
       - name: Install tools
         run: sudo apt-get update && sudo apt-get install -y dpkg-dev gnupg
 
+      - name: Prune old .deb versions
+        run: KEEP=4 ./scripts/prune-pool.sh
+
       - name: Generate Packages and Release files
         run: |
           mkdir -p dists/stable/main/{binary-amd64,binary-i386,binary-all}
@@ -39,6 +42,10 @@ jobs:
         run: |
           git config user.name "GitHub Action"
           git config user.email "actions@github.com"
-          git add dists/
-          git commit -m "Update APT repo metadata"
-          git push
+          git add pool/ dists/
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Update APT repo metadata"
+            git push
+          fi
