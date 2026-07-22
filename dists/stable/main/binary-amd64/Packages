@@ -1,19 +1,4 @@
 Package: adhoccli
-Version: 0.1.1
-Architecture: all
-Maintainer: Devops Team <devops@adhoc.inc>
-Installed-Size: 3000
-Depends: bash, kubectl, google-cloud-cli, jq, google-cloud-cli-gke-gcloud-auth-plugin
-Filename: pool/adhoccli_0.1.1_all.deb
-Size: 731856
-MD5sum: 3ed8ddd8f622c53332de7d74511a86fc
-SHA1: 041278754fd67e964020b04c5602cb49a4d8bedf
-SHA256: 2d249b9403dd3c8facaa5ffc5858d2917fc50b387b92bc0c5473e4c896ded44e
-Homepage: https://www.adhoc.inc
-Description: Automagic CLI for adhoc teamates.
- This release includes a set of scripts and tools to simplify the workflow.
-
-Package: adhoccli
 Version: 0.1.2
 Architecture: all
 Maintainer: Devops Team <devops@adhoc.inc>
@@ -54,6 +39,21 @@ Size: 749324
 MD5sum: 3eff116c9f50e7ad0dfee24f24e75cab
 SHA1: e70947829bc99c80e44b6b4955b77d9f808b93fc
 SHA256: 310c93b49e091d62f81140decf763f14e70f504d3c8f5b66bd640ce96cabf9a1
+Homepage: https://www.adhoc.inc
+Description: Automagic CLI for adhoc teamates.
+ This release includes a set of scripts and tools to simplify the workflow.
+
+Package: adhoccli
+Version: 0.1.5
+Architecture: all
+Maintainer: Devops Team <devops@adhoc.inc>
+Installed-Size: 3000
+Depends: bash, kubectl, google-cloud-cli, jq, google-cloud-cli-gke-gcloud-auth-plugin, python3 (>= 3.10)
+Filename: pool/adhoccli_0.1.5_all.deb
+Size: 749968
+MD5sum: 797082024d86ede631f000b3c0ac7bbd
+SHA1: f4448ac6fafb2d3c0f895fc81564285b7d6cd6a3
+SHA256: f10c905a1204439cadc7917d76b8d146782ab7b9a7a0a5e4cc798b1c9b412186
 Homepage: https://www.adhoc.inc
 Description: Automagic CLI for adhoc teamates.
  This release includes a set of scripts and tools to simplify the workflow.
