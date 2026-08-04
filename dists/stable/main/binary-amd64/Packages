@@ -59,26 +59,6 @@ Description: Automagic CLI for adhoc teamates.
  This release includes a set of scripts and tools to simplify the workflow.
 
 Package: streamsnap
-Version: 1.0.21
-Architecture: amd64
-Maintainer: StreamSnap Team <contact@streamsnap.app>
-Installed-Size: 258562
-Depends: libgtk-3-0, libnotify4, libnss3, libxss1, libxtst6, xdg-utils, libatspi2.0-0, libuuid1, libsecret-1-0
-Recommends: libappindicator3-1
-Filename: pool/streamsnap_1.0.21_amd64.deb
-Size: 84030800
-MD5sum: 3c4fdb2f68daf53c474a03d6d5c9ca98
-SHA1: 05c2562c59cbe3c3bb1a662bf46acf12e45bcbf0
-SHA256: dc5713197b3c3eaba1861fb70432c2689f4ebf07eec4b402914e2c1bd7f2c086
-Section: default
-Priority: optional
-Homepage: https://github.com/lef-adhoc/streamsnap
-Description: Professional screen recording application
-  StreamSnap is a professional screen recording application built with Electron, featuring Google Drive integration and advanced recording capabilities.
-License: MIT
-Vendor: StreamSnap Team
-
-Package: streamsnap
 Version: 1.0.22
 Architecture: amd64
 Maintainer: StreamSnap Team <contact@streamsnap.app>
@@ -130,6 +110,26 @@ Size: 84010948
 MD5sum: 0a095b8c23e967938d17499c06c169a4
 SHA1: 1bfaf883af7dc475388735f504e782bcb54844e8
 SHA256: 43b0767cfe16d938c7a6d8b3ab17c943aea8403570c6bbca762215731739848d
+Section: default
+Priority: optional
+Homepage: https://github.com/lef-adhoc/streamsnap
+Description: Professional screen recording application
+  StreamSnap is a professional screen recording application built with Electron, featuring Google Drive integration and advanced recording capabilities.
+License: MIT
+Vendor: StreamSnap Team
+
+Package: streamsnap
+Version: 1.0.27
+Architecture: amd64
+Maintainer: StreamSnap Team <contact@streamsnap.app>
+Installed-Size: 258579
+Depends: libgtk-3-0, libnotify4, libnss3, libxss1, libxtst6, xdg-utils, libatspi2.0-0, libuuid1, libsecret-1-0
+Recommends: libappindicator3-1
+Filename: pool/streamsnap_1.0.27_amd64.deb
+Size: 84011096
+MD5sum: 6880f6bdeba5c03530c94a0b01c73fb6
+SHA1: 1d76f91f5c10960806ecec1e951558f3e9bae7d0
+SHA256: 9f94f1c5766076f834eb2ac839b9d0b011be28710bbfdc8e5acb5f803253ce77
 Section: default
 Priority: optional
 Homepage: https://github.com/lef-adhoc/streamsnap
