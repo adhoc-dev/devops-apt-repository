@@ -58,6 +58,23 @@ Homepage: https://www.adhoc.inc
 Description: Automagic CLI for adhoc teamates.
  This release includes a set of scripts and tools to simplify the workflow.
 
+Package: devcli
+Version: 0.1.0
+Architecture: all
+Maintainer: Devops Team <devops@adhoc.inc>
+Installed-Size: 2000
+Depends: bash (>= 5.0), kubectl, google-cloud-cli, google-cloud-cli-gke-gcloud-auth-plugin, jq, python3 (>= 3.10)
+Filename: pool/devcli_0.1.0_all.deb
+Size: 739530
+MD5sum: 52ac9119a2f7293b8a17ebd562b9fa2e
+SHA1: aa2731d8b82e1803f563e42de9c96b3e52842f57
+SHA256: 40bfe9ca583d85247fc2c135db900e0dabfe4a7df45d51a2eac86f9a9a31b445
+Homepage: https://www.adhoc.inc
+Description: Automagic CLI (r2) para la infraestructura cloud de Adhoc.
+ Provee el comando r2, que opera los deploys de Odoo en los clusters GKE de
+ Adhoc (logs, bash, pg_activity, análisis de logs, redeploy), más
+ odooJsonLogFmt para formatear los logs JSON de Odoo.
+
 Package: streamsnap
 Version: 1.0.22
 Architecture: amd64
