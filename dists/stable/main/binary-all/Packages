@@ -75,3 +75,20 @@ Description: Automagic CLI (r2) para la infraestructura cloud de Adhoc.
  Adhoc (logs, bash, pg_activity, análisis de logs, redeploy), más
  odooJsonLogFmt para formatear los logs JSON de Odoo.
 
+Package: fleet-health
+Version: 0.1.0
+Architecture: all
+Maintainer: Devops Team <devops@adhoc.inc>
+Installed-Size: 100
+Depends: python3 (>= 3.10)
+Filename: pool/fleet-health_0.1.0_all.deb
+Size: 11462
+MD5sum: 557388811f1d426475d992ee29a6d18b
+SHA1: 451136a68554f7ccede6f2f85c66b93ea73942b9
+SHA256: 5d714bc28ff726e418b8f998689465ab5d5428c40ff4416c51a72a56c7e151b9
+Homepage: https://www.adhoc.inc
+Description: Fleet Health Daemon — reporta el estado de la notebook a Odoo.
+ Servicio de sistema que se enrola contra Odoo, pide y ejecuta jobs
+ (mantenimiento preventivo, chequeos de salud como disco lleno) y
+ reporta el resultado.
+
