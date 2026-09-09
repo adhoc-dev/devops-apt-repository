@@ -76,6 +76,23 @@ Description: Automagic CLI (r2) para la infraestructura cloud de Adhoc.
  Adhoc (logs, bash, pg_activity, análisis de logs, redeploy), más
  odooJsonLogFmt para formatear los logs JSON de Odoo.
 
+Package: devcli
+Version: 0.1.1
+Architecture: all
+Maintainer: Devops Team <devops@adhoc.inc>
+Installed-Size: 2000
+Depends: bash (>= 5.0), kubectl, google-cloud-cli, google-cloud-cli-gke-gcloud-auth-plugin, jq, bsdextrautils, python3 (>= 3.10)
+Filename: pool/devcli_0.1.1_all.deb
+Size: 739748
+MD5sum: fd193caf18a9bef7a7cf197c59f40e53
+SHA1: 7e2a132a617264b0abc69176ec0653afa7d32f73
+SHA256: 2d3389030ddd97c34087ee18f0065cf8c0d1c160944892c5c9ead6bff71934b3
+Homepage: https://www.adhoc.inc
+Description: Automagic CLI (r2) para la infraestructura cloud de Adhoc.
+ Provee el comando r2, que opera los deploys de Odoo en los clusters GKE de
+ Adhoc (logs, bash, pg_activity, análisis de logs, redeploy), más
+ odooJsonLogFmt para formatear los logs JSON de Odoo.
+
 Package: fleet-health
 Version: 0.1.0
 Architecture: all
