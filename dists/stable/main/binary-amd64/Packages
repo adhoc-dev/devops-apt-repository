@@ -95,23 +95,6 @@ Description: Automagic CLI (r2) para la infraestructura cloud de Adhoc.
  odooJsonLogFmt para formatear los logs JSON de Odoo.
 
 Package: fleet-health
-Version: 0.1.4
-Architecture: all
-Maintainer: Devops Team <devops@adhoc.inc>
-Installed-Size: 100
-Depends: python3 (>= 3.10)
-Filename: pool/fleet-health_0.1.4_all.deb
-Size: 18550
-MD5sum: 6b00c6eecee042605c2756a5d0122573
-SHA1: a92b87e63a79d01092de3aaa06a9a78079e5af56
-SHA256: 2ec79b57e3ec515237483b3ef7d9cd56a8fcfeb3b5c3a6fb8714b0fa4f26e71a
-Homepage: https://www.adhoc.inc
-Description: Fleet Health Daemon — reporta el estado de la notebook a Odoo.
- Servicio de sistema que se enrola contra Odoo, pide y ejecuta jobs
- (mantenimiento preventivo, chequeos de salud como disco lleno) y
- reporta el resultado.
-
-Package: fleet-health
 Version: 0.1.5
 Architecture: all
 Maintainer: Devops Team <devops@adhoc.inc>
@@ -156,6 +139,23 @@ Size: 19078
 MD5sum: 9b291d25bbac39bbed28d0a75f2899f0
 SHA1: 83df83e885163203d6004d770e3c1fbc477b3621
 SHA256: 45a593ddccd8fd9536af91fc8e1767d7de249b652c9a2b921801559ebb021478
+Homepage: https://www.adhoc.inc
+Description: Fleet Health Daemon — reporta el estado de la notebook a Odoo.
+ Servicio de sistema que se enrola contra Odoo, pide y ejecuta jobs
+ (mantenimiento preventivo, chequeos de salud como disco lleno) y
+ reporta el resultado.
+
+Package: fleet-health
+Version: 0.1.8
+Architecture: all
+Maintainer: Devops Team <devops@adhoc.inc>
+Installed-Size: 100
+Depends: python3 (>= 3.10)
+Filename: pool/fleet-health_0.1.8_all.deb
+Size: 19078
+MD5sum: 98168fdc050ac27a6ca1e42c1f965940
+SHA1: a0cc8d3bc4efaae025a6970f0afcb63286c6c1fa
+SHA256: fb5ce8d7194a647d9275346e832ea6c198a908b1e5f30fad0ef0d0b7a3cf0efa
 Homepage: https://www.adhoc.inc
 Description: Fleet Health Daemon — reporta el estado de la notebook a Odoo.
  Servicio de sistema que se enrola contra Odoo, pide y ejecuta jobs
