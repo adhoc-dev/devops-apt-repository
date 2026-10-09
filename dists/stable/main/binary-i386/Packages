@@ -146,16 +146,16 @@ Description: Fleet Health Daemon — reporta el estado de la notebook a Odoo.
  reporta el resultado.
 
 Package: fleet-health
-Version: 0.1.9
+Version: 0.1.13
 Architecture: all
 Maintainer: Devops Team <devops@adhoc.inc>
 Installed-Size: 100
 Depends: python3 (>= 3.10)
-Filename: pool/fleet-health_0.1.9_all.deb
-Size: 19156
-MD5sum: 00cadbf81358479a565a123888685a15
-SHA1: 3ace30bc10ed5ad5042ae2980da8aa05904b7539
-SHA256: c3425a03687d2d4c680bb91c00877448a39c74b78d4f4655248b8bc9d7017495
+Filename: pool/fleet-health_0.1.13_all.deb
+Size: 19808
+MD5sum: b36d4db474e36c735240825d575be0b0
+SHA1: c04ffdd8ed2a5523eb09c2f6b670c713d729e54f
+SHA256: fa8a128b8f3afddb2fa1cdad5b7fdd45d369b625a8ada560ef3db315912756f3
 Homepage: https://www.adhoc.inc
 Description: Fleet Health Daemon — reporta el estado de la notebook a Odoo.
  Servicio de sistema que se enrola contra Odoo, pide y ejecuta jobs
