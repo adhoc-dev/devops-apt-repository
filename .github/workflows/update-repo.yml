@@ -2,14 +2,19 @@ name: Update APT Repository
 
 on:
   push:
+    branches: [main]
     paths:
       - 'pool/**/*.deb'
 
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
+    environment: signing
     steps:
       - name: Checkout repo
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
