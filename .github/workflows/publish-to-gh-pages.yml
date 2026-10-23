@@ -6,6 +6,9 @@ on:
     types:
       - completed
 
+permissions:
+  contents: write
+
 jobs:
   deploy:
     if: ${{ github.event.workflow_run.conclusion == 'success' }}
@@ -14,11 +17,11 @@ jobs:
       - name: Checkout main
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
 
-      - name: Clone gh-pages branch
-        run: |
-         git config --global user.name "GitHub Action"
-         git config --global user.email "actions@github.com"
-         git clone --depth 1 --branch gh-pages https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} gh-pages
+      - name: Checkout gh-pages branch
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          ref: gh-pages
+          path: gh-pages
 
       - name: Sync repo files to gh-pages
         run: |
@@ -28,6 +31,8 @@ jobs:
       - name: Commit and push
         run: |
           cd gh-pages
+          git config user.name "GitHub Action"
+          git config user.email "actions@github.com"
           git add .
           if git diff --cached --quiet; then
             echo "No changes to commit."
