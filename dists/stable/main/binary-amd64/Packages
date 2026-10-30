@@ -196,6 +196,25 @@ Description: Fleet Health Daemon — reporta el estado de la notebook a Odoo.
  (mantenimiento preventivo, chequeos de salud como disco lleno) y
  reporta el resultado.
 
+Package: fprintd-elan-0c4b
+Version: 0.0.8-2
+Architecture: amd64
+Maintainer: Devops Team <devops@adhoc.inc>
+Depends: fprintd, curl, unzip, libglib2.0-0 | libglib2.0-0t64, libgusb2, libgudev-1.0-0, libnss3, libpixman-1-0, libusb-1.0-0, libssl3 | libssl3t64
+Filename: pool/fprintd-elan-0c4b_0.0.8-2_amd64.deb
+Size: 279932
+MD5sum: bca08046ec9b29f940bd3d352f14f96f
+SHA1: 777a01b06c4ff8204f7fb6f52a95b58649c892b1
+SHA256: 638450fbfb6eae4d6f3fef79772b8e2f78e4b7e9c61ccb4a5bf142f039b12510
+Section: misc
+Priority: optional
+Homepage: https://support.lenovo.com/us/en/downloads/ds560939-elan-fingerprint-driver-for-ubuntu-2204-thinkpad-e14-gen-4-e15-gen-4
+Description: Elan 04f3:0c4b fingerprint driver for fprintd (ThinkPad E14/E15 Gen 4)
+ The stock libfprint elan driver fails to enroll on this sensor.
+ This package ships libfprint-tod in a private directory and loads it only
+ in fprintd through a systemd drop-in. On install it downloads Lenovo's
+ proprietary TOD driver from download.lenovo.com and checks its sha256.
+
 Package: streamsnap
 Version: 1.0.22
 Architecture: amd64
