@@ -1,34 +1,34 @@
-Date: Mon, 16 Nov 2026 14:43:49 +0000
+Date: Tue, 17 Nov 2026 19:28:36 +0000
 Suite: stable
 MD5Sum:
- 1127aa524db021824a0dd696c2896218               52 Release
- bd900ed42dda8c225975b463d2929b15             7709 main/binary-all/Packages
- 5605dc00c1b300d178296c2c2632ed12             2021 main/binary-all/Packages.gz
- 5b9b6ec120d162327863058abe915adf            12022 main/binary-amd64/Packages
- 01b92630275dbc50eac61f1ca531f9eb             3230 main/binary-amd64/Packages.gz
- bd900ed42dda8c225975b463d2929b15             7709 main/binary-i386/Packages
- 6b1408ee9a5f8ca6ea13e6c2c953274a             2021 main/binary-i386/Packages.gz
+ 2b5d9b2d0e6255ec1e853c82d4c6b8fb               52 Release
+ 7dab56a365671f76db2d24aa8ebff3d8             7709 main/binary-all/Packages
+ 463e9cbdfd8e28bfc0582cba0802d509             2021 main/binary-all/Packages.gz
+ 16fff409242bc62e2e58be8b2186c2e9            12022 main/binary-amd64/Packages
+ 3d132c0539c13f93ea0fe6582afcd829             3233 main/binary-amd64/Packages.gz
+ 7dab56a365671f76db2d24aa8ebff3d8             7709 main/binary-i386/Packages
+ 45d8222c8013859fe91df2985b35fb53             2021 main/binary-i386/Packages.gz
 SHA1:
- fd3cb522a3969c40e178362347b274bb7919599d               52 Release
- a2d798ca4abb0170cc9aadb9facbeda75d4977a9             7709 main/binary-all/Packages
- 6abcdc43826be7e7eb889e64c7c98fbe284c768f             2021 main/binary-all/Packages.gz
- a078991ad540dc8039518d49945e4c582dbb7beb            12022 main/binary-amd64/Packages
- a1eb2384b163b92cad138f9206006f7fcb282fc7             3230 main/binary-amd64/Packages.gz
- a2d798ca4abb0170cc9aadb9facbeda75d4977a9             7709 main/binary-i386/Packages
- aa68d89bafd6db61016b168b36ed22686f17f921             2021 main/binary-i386/Packages.gz
+ 565e940a3e0238d17da71293445b82160089a96d               52 Release
+ 85de8e4e1f44118c56cd55dabd755cde24486970             7709 main/binary-all/Packages
+ a524f4a2708055342d833bc2342975db5d9283ae             2021 main/binary-all/Packages.gz
+ 623e9db60593c38c98d84dc13a44a54a737af1b8            12022 main/binary-amd64/Packages
+ 456688c92befb90cd708fb6104a3d35641b08bce             3233 main/binary-amd64/Packages.gz
+ 85de8e4e1f44118c56cd55dabd755cde24486970             7709 main/binary-i386/Packages
+ e33d5faace4fcf7eb64275adfc2ee7a75e8b970c             2021 main/binary-i386/Packages.gz
 SHA256:
- f1347b30f9eeb9064691c2ebbb519f4fc4badfdedd7404f4e79a16f6ee8072b2               52 Release
- d5e6fee87704244fb59f639ac51e4e5da99758db2bf3c4d121ae8fa7540a5f0e             7709 main/binary-all/Packages
- 6f48470a68b3f0a97e85af5e0a6edef144deee2d3ed26f459e7516f2f0d1a446             2021 main/binary-all/Packages.gz
- a4f6dba5a118dcce9ed767959f98a56a45f493b187917a790ac9c48ba69439f0            12022 main/binary-amd64/Packages
- edec0a368c12dfc39d6cbb56715d0ed2182aabdcaf6613c4aa1184c73dfd48a9             3230 main/binary-amd64/Packages.gz
- d5e6fee87704244fb59f639ac51e4e5da99758db2bf3c4d121ae8fa7540a5f0e             7709 main/binary-i386/Packages
- 7b4d5849827db638c3a0b6a29cbb2461b0c3763333ed54ee7b2b27876407f8c7             2021 main/binary-i386/Packages.gz
+ 631edeb58114ce262753760660591b97992a00f459ebcf4e122d5c9ea5f4f932               52 Release
+ b54b0c46138b93adca6994d615a3b78570d8a9fc1392447d75342bf1e630ae61             7709 main/binary-all/Packages
+ c7cbb0a3b3dbffef63042eaf8ff6668168a269203cce6b4c04905e9ceb053360             2021 main/binary-all/Packages.gz
+ e615fab4c2fa1372c6a6ed3acc9606ab9b3ab8eb7c83867abc1ca934be366cc6            12022 main/binary-amd64/Packages
+ dbbc54786e10dd63051ed10d4d4b02151cbdaf20b991b0b1a19fc698e4e1d61e             3233 main/binary-amd64/Packages.gz
+ b54b0c46138b93adca6994d615a3b78570d8a9fc1392447d75342bf1e630ae61             7709 main/binary-i386/Packages
+ dbc9b338c44e2fb17b98976b52a7de2a0dacb0918da0740dca6b3408cd82eb56             2021 main/binary-i386/Packages.gz
 SHA512:
- af368ac6ef61d3387f07ccf6796e2dae62a5a3dae78d0b445714303c5f95af3ce6df9eb9e07b060062468918b93666ff59aac4d8515b754c1d2c7ecceeeb318e               52 Release
- fb28396db917c7d9eb0d95d1591bd8a282ceb732866a5a4c1b31d6eb06168bf325291314e4289413f6aef9c190646ca09a67401a076acff9ff38451333ca8ad8             7709 main/binary-all/Packages
- 9058881225e695048fa0c02ee28f724e2d053ff7e6a2c7cca1f262620ec705438e1cff1e803629ee39709128ab522603ec904ab85ee2609395f4338afeb51171             2021 main/binary-all/Packages.gz
- 912dab81bae9a74eb28e7a630c58df53540079d117c6ed8f0fba544ed52d06c14c5d2bf9ced4aa202a83217dc6c7b4b0938b8f36f092234503239152cf409648            12022 main/binary-amd64/Packages
- de6916fd10f3eb9376478f43a9fd92eebfde58413533bc477dbbcb227a7e8311453b9fa52ba35f93c5897ae617c6f46d639abcbaa5286af30b699f127fc542b3             3230 main/binary-amd64/Packages.gz
- fb28396db917c7d9eb0d95d1591bd8a282ceb732866a5a4c1b31d6eb06168bf325291314e4289413f6aef9c190646ca09a67401a076acff9ff38451333ca8ad8             7709 main/binary-i386/Packages
- c4741527f4d975ea794df5fa34c27bb9fc8ce4c9dc8eb5f2b0522528f9baaadebdeb3e3acce0c8b2cc787eb5ebcd7d2ecd5f33a5e71c7375e339d1e87a310ff2             2021 main/binary-i386/Packages.gz
+ c2dfe03a47a65ca972ac8d224a1ce3760da5c5f93d02ffc2a5d5bb74990b348929973695be04af674620e18e216319ad92912f33203f5ab9adcb4d26989b7361               52 Release
+ 96acf6580e3f3166def84fe9319ffc69d50caf870982dd13afc35fd5a208a8663cca1a4462634edc0284239582dfa9719ce96aafde22caa745d11b18290029c2             7709 main/binary-all/Packages
+ fbc24fc85718cb4e7cefed511875de6470700d05faa8ab4b6ce796a3ca4c26a5207eb5873a5cb05a13945c7b9c8dc997e7271e23d8a68a1fd8c0b1cb82a97c95             2021 main/binary-all/Packages.gz
+ 1c766711735d79fb9c1503ff2b86e0743565765574f7ecd2a926b714b4edde46d3edbc426d0616767f75d5c262cb44436226656420b4c37f44559331ad16e996            12022 main/binary-amd64/Packages
+ 5dec1857bca59cacd1bbb005d1ec0a07806f2a13aec7d3e585c4c613ec9c38890a37b37aea1e89500bdb4bb0da1b5cd6e5c3d79597bcce866036b38ce92dc27f             3233 main/binary-amd64/Packages.gz
+ 96acf6580e3f3166def84fe9319ffc69d50caf870982dd13afc35fd5a208a8663cca1a4462634edc0284239582dfa9719ce96aafde22caa745d11b18290029c2             7709 main/binary-i386/Packages
+ fd6c50e80b3bbe39980719ba47d8f019f069dca617254613634b827e1c5aa4ee1e5a49fadc83a64cb9b8385aaf31dec2a1efff7429c7ba112dec5cd4f190c390             2021 main/binary-i386/Packages.gz
