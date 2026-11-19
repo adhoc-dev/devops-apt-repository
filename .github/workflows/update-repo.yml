@@ -35,7 +35,7 @@ jobs:
           echo "${{ secrets.GPG_PRIVATE_KEY }}" | gpg --batch --import
 
       - name: Install tools
-        run: sudo apt-get update && sudo apt-get install -y dpkg-dev gnupg
+        run: sudo apt-get update && sudo apt-get install -y dpkg-dev apt-utils gnupg
 
       - name: Prune old .deb versions
         run: KEEP=4 ./scripts/prune-pool.sh
