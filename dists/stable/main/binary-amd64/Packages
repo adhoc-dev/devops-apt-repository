@@ -218,17 +218,17 @@ Description: Elan 04f3:0c4b fingerprint driver for fprintd (ThinkPad E14/E15 Gen
  proprietary TOD driver from download.lenovo.com and checks its sha256.
 
 Package: streamsnap
-Version: 1.0.26
+Version: 1.0.30
 Architecture: amd64
 Maintainer: StreamSnap Team <contact@streamsnap.app>
-Installed-Size: 258578
+Installed-Size: 258607
 Depends: libgtk-3-0, libnotify4, libnss3, libxss1, libxtst6, xdg-utils, libatspi2.0-0, libuuid1, libsecret-1-0
 Recommends: libappindicator3-1
-Filename: pool/streamsnap_1.0.26_amd64.deb
-Size: 84010948
-MD5sum: 0a095b8c23e967938d17499c06c169a4
-SHA1: 1bfaf883af7dc475388735f504e782bcb54844e8
-SHA256: 43b0767cfe16d938c7a6d8b3ab17c943aea8403570c6bbca762215731739848d
+Filename: pool/streamsnap_1.0.30_amd64.deb
+Size: 84577152
+MD5sum: 78370cab042bf8ba4688d6d66f037c48
+SHA1: 747b2ad1c07c541f4a871ae37f6cfdae0545ffc6
+SHA256: e31716d25cc81efcb23d2d89001d8469357849a49921cf8a0c06cf7562934307
 Section: default
 Priority: optional
 Homepage: https://github.com/lef-adhoc/streamsnap
@@ -238,17 +238,17 @@ License: MIT
 Vendor: StreamSnap Team
 
 Package: streamsnap
-Version: 1.0.27
+Version: 1.0.31
 Architecture: amd64
 Maintainer: StreamSnap Team <contact@streamsnap.app>
-Installed-Size: 258579
+Installed-Size: 258612
 Depends: libgtk-3-0, libnotify4, libnss3, libxss1, libxtst6, xdg-utils, libatspi2.0-0, libuuid1, libsecret-1-0
 Recommends: libappindicator3-1
-Filename: pool/streamsnap_1.0.27_amd64.deb
-Size: 84011096
-MD5sum: 6880f6bdeba5c03530c94a0b01c73fb6
-SHA1: 1d76f91f5c10960806ecec1e951558f3e9bae7d0
-SHA256: 9f94f1c5766076f834eb2ac839b9d0b011be28710bbfdc8e5acb5f803253ce77
+Filename: pool/streamsnap_1.0.31_amd64.deb
+Size: 84578452
+MD5sum: 07caba13e839eac6e0b3f63020a27ca2
+SHA1: 2a82f577b8ebe8059fbb4c5807dc453fd2af330f
+SHA256: 380130c3928665fd8d6f96eec9c37f7e2e6c8c64324d81d600296e108a091fb5
 Section: default
 Priority: optional
 Homepage: https://github.com/lef-adhoc/streamsnap
@@ -258,17 +258,17 @@ License: MIT
 Vendor: StreamSnap Team
 
 Package: streamsnap
-Version: 1.0.28
+Version: 1.0.32
 Architecture: amd64
 Maintainer: StreamSnap Team <contact@streamsnap.app>
-Installed-Size: 258583
+Installed-Size: 258609
 Depends: libgtk-3-0, libnotify4, libnss3, libxss1, libxtst6, xdg-utils, libatspi2.0-0, libuuid1, libsecret-1-0
 Recommends: libappindicator3-1
-Filename: pool/streamsnap_1.0.28_amd64.deb
-Size: 84570976
-MD5sum: 3aaf3d4001996571e6b33cfe46074629
-SHA1: 8167903fcf27211f5c42928585a1e935cfbe1e6a
-SHA256: c4218b8fa25e1a06f3abad2e2e67530818464d8aabd3a24df52f0064c39ea23f
+Filename: pool/streamsnap_1.0.32_amd64.deb
+Size: 84512084
+MD5sum: 21321a70803d84f510038a8fbf05aef5
+SHA1: b0ad26283a78fee70d56173086fa04bc7521ab68
+SHA256: 16d5949aec1edfd503f5d7d2ac3d514cd1df5b75f553402bf203b22f5a877627
 Section: default
 Priority: optional
 Homepage: https://github.com/lef-adhoc/streamsnap
@@ -278,17 +278,17 @@ License: MIT
 Vendor: StreamSnap Team
 
 Package: streamsnap
-Version: 1.0.29
+Version: 1.0.33
 Architecture: amd64
 Maintainer: StreamSnap Team <contact@streamsnap.app>
-Installed-Size: 258583
+Installed-Size: 258612
 Depends: libgtk-3-0, libnotify4, libnss3, libxss1, libxtst6, xdg-utils, libatspi2.0-0, libuuid1, libsecret-1-0
 Recommends: libappindicator3-1
-Filename: pool/streamsnap_1.0.29_amd64.deb
-Size: 84570956
-MD5sum: 7d18a4f2d72f725ce25c0ff6cebd8b26
-SHA1: f3bfee37cf64882bd8c9be8488ef34f1f05b4523
-SHA256: 08aaf3a5ce768a6576e648cf4bab638cc46d00faca6fa560ed96603b41f699fc
+Filename: pool/streamsnap_1.0.33_amd64.deb
+Size: 84578608
+MD5sum: 1906ea2f5676df107166ff8df078c8b2
+SHA1: d4655230925027019fddd29a9bcc633a7f1f2ca6
+SHA256: ef8e1b3babf7af9d1a1cb0feb729acc9342298c314aaef8698bba73a54624e00
 Section: default
 Priority: optional
 Homepage: https://github.com/lef-adhoc/streamsnap
