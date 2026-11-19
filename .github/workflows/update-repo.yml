@@ -35,7 +35,8 @@ jobs:
           echo "${{ secrets.GPG_PRIVATE_KEY }}" | gpg --batch --import
 
       - name: Install tools
-        run: sudo apt-get update && sudo apt-get install -y dpkg-dev gnupg
+        # apt-utils brings apt-ftparchive, which the runner image no longer preinstalls.
+        run: sudo apt-get update && sudo apt-get install -y dpkg-dev gnupg apt-utils
 
       - name: Prune old .deb versions
         run: KEEP=4 ./scripts/prune-pool.sh
