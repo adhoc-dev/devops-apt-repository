@@ -218,26 +218,6 @@ Description: Elan 04f3:0c4b fingerprint driver for fprintd (ThinkPad E14/E15 Gen
  proprietary TOD driver from download.lenovo.com and checks its sha256.
 
 Package: streamsnap
-Version: 1.0.30
-Architecture: amd64
-Maintainer: StreamSnap Team <contact@streamsnap.app>
-Installed-Size: 258607
-Depends: libgtk-3-0, libnotify4, libnss3, libxss1, libxtst6, xdg-utils, libatspi2.0-0, libuuid1, libsecret-1-0
-Recommends: libappindicator3-1
-Filename: pool/streamsnap_1.0.30_amd64.deb
-Size: 84577152
-MD5sum: 78370cab042bf8ba4688d6d66f037c48
-SHA1: 747b2ad1c07c541f4a871ae37f6cfdae0545ffc6
-SHA256: e31716d25cc81efcb23d2d89001d8469357849a49921cf8a0c06cf7562934307
-Section: default
-Priority: optional
-Homepage: https://github.com/lef-adhoc/streamsnap
-Description: Professional screen recording application
-  StreamSnap is a professional screen recording application built with Electron, featuring Google Drive integration and advanced recording capabilities.
-License: MIT
-Vendor: StreamSnap Team
-
-Package: streamsnap
 Version: 1.0.31
 Architecture: amd64
 Maintainer: StreamSnap Team <contact@streamsnap.app>
@@ -289,6 +269,26 @@ Size: 84578608
 MD5sum: 1906ea2f5676df107166ff8df078c8b2
 SHA1: d4655230925027019fddd29a9bcc633a7f1f2ca6
 SHA256: ef8e1b3babf7af9d1a1cb0feb729acc9342298c314aaef8698bba73a54624e00
+Section: default
+Priority: optional
+Homepage: https://github.com/lef-adhoc/streamsnap
+Description: Professional screen recording application
+  StreamSnap is a professional screen recording application built with Electron, featuring Google Drive integration and advanced recording capabilities.
+License: MIT
+Vendor: StreamSnap Team
+
+Package: streamsnap
+Version: 1.0.34
+Architecture: amd64
+Maintainer: StreamSnap Team <contact@streamsnap.app>
+Installed-Size: 258622
+Depends: libgtk-3-0, libnotify4, libnss3, libxss1, libxtst6, xdg-utils, libatspi2.0-0, libuuid1, libsecret-1-0
+Recommends: libappindicator3-1
+Filename: pool/streamsnap_1.0.34_amd64.deb
+Size: 84581084
+MD5sum: 36e3e9d7a423eb8dd9008a7de29d47d0
+SHA1: 02de03818af51f178e11a892a3c1494845f0d4ac
+SHA256: d48f784e2fa90677dd619bbfe2419f2a359f0ae970d9707281c4503a064a4f9b
 Section: default
 Priority: optional
 Homepage: https://github.com/lef-adhoc/streamsnap
